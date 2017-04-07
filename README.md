@@ -3,7 +3,7 @@ With the rapid adoption of smartphones, tablets, and mobile apps, they are incre
 Dataset Overview:
 44840 Apps data with titile, description and maturity rating<br />
 Crawled from Apple App Store
-Suspecious Apps Detection - 10 Nearest Neighbor Approach.ipynb verified the possibility of using k-nn method in the maturity rating research and found suspicious apps for the use of future Mturk survey<br /><br />
+<br /><br />Suspecious Apps Detection - 10 Nearest Neighbor Approach.ipynb verified the possibility of using k-nn method in the maturity rating research and found suspicious apps for the use of future Mturk survey
 
 1. Import the data, examine the shape and distribution
 2. Data preprocessing: regular expression, lowercase, remove stop words
