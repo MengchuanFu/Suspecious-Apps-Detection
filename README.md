@@ -3,7 +3,7 @@ With the rapid adoption of smartphones, tablets, and mobile apps, they are incre
 <br /><br />Dataset Overview:
 44840 Apps data with titile, description and maturity rating<br />
 Crawled from Apple App Store
-<br /><br />Suspecious Apps Detection - 10 Nearest Neighbor Approach.ipynb verified the possibility of using k-nn method in the maturity rating research and found suspicious apps for the use of future Mturk survey
+<br /><br />10 Nearest Neighbor Approach.ipynb verified the possibility of using k-nn method in the maturity rating research and found suspicious apps for the use of future Mturk survey
 
 1. Import the data, examine the shape and distribution
 2. Data preprocessing: regular expression, lowercase, remove stop words
@@ -12,3 +12,12 @@ Crawled from Apple App Store
 5. For each app, select top 10 apps that have max overlaps words on description
 6. Predict true maturity rating for each app by "top 10 apps" ratings (Majority Voting)
 7. Further analysis
+<br /><br />Machine Learning and Token Analysis.ipynb monitor age rating on iOS and spy on the suspicious apps on iOS that are largely prone to mis-rated
+
+
+1. Import the data, examine the shape and distribution
+2. Randomly split data into training and testing sets
+3. Data vectorization: include only 1-gram and 2-grams; ignore terms that apear in more than 50% of the documents; only keep terms that appear in at least 2 documents
+4. Generate document-term matrix
+5. Build and evaluat models (Naive Bayes and Logestic Regression)
+6. Examine Tokens (Ratio based)
