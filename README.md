@@ -3,6 +3,7 @@ With the rapid adoption of smartphones, tablets, and mobile apps, they are incre
 <br /><br />Dataset Overview:<br />
 44840 Apps data with titile, description and maturity rating<br />
 Crawled from Apple App Store
+
 <br /><br />10 Nearest Neighbor Approach.ipynb verified the possibility of using k-nn method in the maturity rating research and found suspicious apps for the use of future Mturk survey
 
 1. Import the data, examine the shape and distribution
